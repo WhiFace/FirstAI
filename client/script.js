@@ -87,7 +87,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
 //fetch data from server
-const response = await fetch('https://firstai.onrender.com', {
+const response = await fetch('https://firstai.onrender.com/', {
 	method: 'POST',
 	headers: {
 			'Content-Type': 'application/json'
